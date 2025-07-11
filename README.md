@@ -1,26 +1,65 @@
 # MBAESG_EVALUATION_MANAGEMENT_OPERATIONNEL 
+
 ## Répartition des tâches entre les membres de l’équipe
 
-Ce projet a été réalisé en binôme par **Paola NGOUADJEL** et **Vylaivane PHOMMAHAXAY**, avec une répartition des tâches claire et complémentaire tout au long du développement.
-
-- **Paola NGOUADJEL** s’est principalement occupée de la **création de l’interface interactive avec Streamlit**, de l’**intégration de la base DuckDB**, ainsi que de la **mise en place des visualisations des indicateurs clés** (KPIs). Elle a également conçu les **filtres dynamiques** permettant d’affiner les résultats par quartier, et a veillé à l’esthétique de l’application (logo, style Airbnb).
-
-- **Vylaivane PHOMMAHAXAY** a pris en charge la **préparation des données**, le **nettoyage du fichier CSV**, et a contribué à la **rédaction et à l’optimisation des requêtes SQL** utilisées pour alimenter les visualisations. Il a également participé à la **relecture et aux tests** fonctionnels de l’application avant la mise en production.
-Cette collaboration a permis une complémentarité efficace entre la partie technique, visuelle, et analytique du projet.
-
-# Projet : Analyse Airbnb avec DuckDB et Streamlit
+Ce projet a été réalisé en binôme par **Paola NGOUADJEL** et **Vylaivane PHOMMAHAXAY**.
 
 ## Présentation du projet
-Ce projet consiste à développer une application interactive permettant de charger un fichier CSV, d’analyser des indicateurs clés de performance avec DuckDB, et d’afficher les résultats dans Streamlit avec des visualisations dynamiques.
+
+Dans le cadre de notre formation, nous avons travaillé sur un projet de data visualisation en utilisant Streamlit.  
+L’objectif était de créer une application web interactive qui permet de :
+
+- charger un fichier CSV (avec des données Airbnb),
+- interroger et analyser les données avec DuckDB,
+- afficher des KPIs utiles (comme le nombre de logements ou la disponibilité moyenne),
+- visualiser les résultats à travers des graphiques dynamiques.
+
+On a aussi intégré des filtres (quartier, date, etc.) pour rendre l’analyse plus personnalisable.
+
+---
 
 ## Fonctionnalités
-- Téléversement d’un fichier CSV.
-- Stockage/interrogation avec DuckDB.
-- Visualisation de 4 KPIs.
-- Filtres dynamiques (quartiers, dates, etc).
+
+- Téléversement d’un fichier CSV
+- Requêtes SQL exécutées avec DuckDB directement dans l’appli
+- Visualisation de 4 indicateurs clés avec Matplotlib/Seaborn
+- Filtres dynamiques par quartier, date, nom…
+- Interface simple et rapide à prendre en main
+
+---
+
+## Arborescence du projet
+
+stream_application/
+├── data/
+│   ├── Airbnb_Open_Data.csv
+│   └── app.py
+├── requirements.txt
+└── README.md
+
+
+Ce projet nous a permis de :
+	•	manipuler DuckDB pour interroger des données localement sans base distante,
+	•	créer une interface claire et interactive avec Streamlit,
+	•	mieux collaborer via Git/GitHub,
+	•	structurer un projet data de A à Z.
+
+⸻
+
+Merci de votre attention ! N’hésitez pas à tester le projet et explorer le code 
 
 ## Instructions d’installation
 1. Cloner le projet :
 ```bash
 git clone https://github.com/Paolangd/stream_application.git
 cd stream_application
+
+python -m venv .venv
+source .venv/bin/activate  # Pour Mac/Linux
+# ou
+.venv\Scripts\activate  # Pour Windows
+
+pip install -r requirements.txt
+
+streamlit run data/app.py
+

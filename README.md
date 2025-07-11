@@ -37,7 +37,7 @@ stream_application/
 ├── requirements.txt
 └── README.md
 
-
+## Ce qu'on a appris:
 Ce projet nous a permis de :
 	•	manipuler DuckDB pour interroger des données localement sans base distante,
 	•	créer une interface claire et interactive avec Streamlit,

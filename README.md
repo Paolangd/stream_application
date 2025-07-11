@@ -22,5 +22,5 @@ Ce projet consiste à développer une application interactive permettant de char
 ## 🚀 Instructions d’installation
 1. Cloner le projet :
 ```bash
-git clone https://github.com/Paolang/airbnb_duckdb_streamlit.git
-cd airbnb_duckdb_streamlit
+git clone https://github.com/Paolangd/stream_application.git
+cd stream_application

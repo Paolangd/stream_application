@@ -8,18 +8,18 @@ Ce projet a été réalisé en binôme par **Paola NGOUADJEL** et **Vylaivane PH
 - **Vylaivane PHOMMAHAXAY** a pris en charge la **préparation des données**, le **nettoyage du fichier CSV**, et a contribué à la **rédaction et à l’optimisation des requêtes SQL** utilisées pour alimenter les visualisations. Il a également participé à la **relecture et aux tests** fonctionnels de l’application avant la mise en production.
 Cette collaboration a permis une complémentarité efficace entre la partie technique, visuelle, et analytique du projet.
 
-# 📊 Projet : Analyse Airbnb avec DuckDB et Streamlit
+# Projet : Analyse Airbnb avec DuckDB et Streamlit
 
-## 🧠 Présentation du projet
+## Présentation du projet
 Ce projet consiste à développer une application interactive permettant de charger un fichier CSV, d’analyser des indicateurs clés de performance avec DuckDB, et d’afficher les résultats dans Streamlit avec des visualisations dynamiques.
 
-## 🛠️ Fonctionnalités
+## Fonctionnalités
 - Téléversement d’un fichier CSV.
 - Stockage/interrogation avec DuckDB.
 - Visualisation de 4 KPIs.
 - Filtres dynamiques (quartiers, dates, etc).
 
-## 🚀 Instructions d’installation
+## Instructions d’installation
 1. Cloner le projet :
 ```bash
 git clone https://github.com/Paolangd/stream_application.git

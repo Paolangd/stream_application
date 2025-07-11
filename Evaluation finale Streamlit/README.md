@@ -1,4 +1,4 @@
-# EVALUATION ESGMBA APPLICATION INTERACTIVE AIRBNB 
+# MBAESG_EVALUATION_MANAGEMENT_OPERATIONNEL 
 ## Répartition des tâches entre les membres de l’équipe
 
 Ce projet a été réalisé en binôme par **Paola NGOUADJEL** et **Vylaivane PHOMMAHAXAY**, avec une répartition des tâches claire et complémentaire tout au long du développement.
